@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Meaning
+{% endblock %}
+
+{% block main %}
+
+    <div class="description">
+        <h3>Your inspirational quote:</h3>
+        <p class="quote">Quit thinking so much, there's {{ weather }} skies outside{{ level }}</p>
+    </div>
+    <form action="/">
+        <button class="btn btn-primary" type="submit">Seek More Inspiration</button>
+    </form>
+{% endblock %}
+
