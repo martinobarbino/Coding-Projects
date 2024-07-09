@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Stock</th>
+                <th>Transaction Type</th>
+                <th>Price of Stock</th>
+                <th>Number of Shares</th>
+                <th>Date and Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in transactionData %}
+            <tr>
+                <td class="stockNames">{{ stock.stock.upper() }}</td>
+                <td>{{ stock.transaction_type }}</td>
+                <td>{{ stock.price }}</td>
+                <td>{{ stock.shares }}</td>
+                <td>{{ stock.datetime }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

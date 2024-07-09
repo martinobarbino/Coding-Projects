@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Stock</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Total Value of Holding</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stockNames %}
+
+            <tr>
+                <td class="stockNames">{{ stock.stock.upper() }}</td>
+                <td>{{ stock.totalShares }}</td>
+                <td>{{ stock.prices }}</td>
+                <td>{{ stock.holdings }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="totals">
+        <h5>Cash Balance: {{ cashBalance }}</h5>
+        <h5>Grand Total: {{ grandTotal }}</h5>
+    </div>
+{% endblock %}
