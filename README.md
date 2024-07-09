@@ -4,4 +4,4 @@ The directory entitled 'CS50w Projects' contains projects I did in CS50w. The sc
 
 The directory entitled 'CS50x Projects' contains projects I did in CS50x, these were much smaller in scale.
 
-The directory entitled 'Java Programming 1' contains projects I did in my SPC Java Programming 1 course.
+The directory entitled 'Java Programming 1 Projects' contains projects I did in my SPC Java Programming 1 course.
