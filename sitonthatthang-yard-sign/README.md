@@ -6,6 +6,7 @@ Simple 2-color yard sign concept based on high-ROI roadside sign advice:
 - Service: **Used Furniture Delivered**
 - Contact: **SitOnThatThang.com**
 - Brand yellow `#fcd004` + black `#111111`
+- Typography: **Impact** (same as the site masthead “SIT ON THAT THANG”)
 
 ## Files
 
