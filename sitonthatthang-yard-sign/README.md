@@ -2,11 +2,11 @@
 
 Simple 2-color yard sign concept based on high-ROI roadside sign advice:
 
-- Gorilla logo
-- Service: **Used Furniture Delivered**
-- Contact: **SitOnThatThang.com**
+- Service text (Impact, large): **USED / FURNITURE / DELIVERED**
+- Gorilla logo in the middle
+- Contact (Impact): **SitOnThatThang.com**
 - Brand yellow `#fcd004` + black `#111111`
-- Typography: **Impact** (same as the site masthead “SIT ON THAT THANG”)
+- No underline / divider rule
 
 ## Files
 
